@@ -12,6 +12,7 @@ python:
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # environment variables
-export PYTHONPATH='.'
+before_install:
+  - export PYTHONPATH='.'
 # command to run tests
 script: nosetests --with-coverage
