@@ -30,7 +30,3 @@ def merge_sort(unsorted_list):
             unsorted_list[k] = rightArray[j]
             j = j + 1
             k = k + 1
-
-list_to_sort = [4,8,2,5,1,9]
-merge_sort(list_to_sort)
-print(list_to_sort)
