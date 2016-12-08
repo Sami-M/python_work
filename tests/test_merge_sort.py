@@ -4,7 +4,7 @@ Created by Sami on 12/7/2016
 import unittest
 import random
 import copy
-from merge_sort import merge_sort
+from ..alg.sorting.merge_sort import merge_sort
 
 class MergeSortTest(unittest.TestCase):
     def test_if_unsorted_array_becomes_sorted(self):

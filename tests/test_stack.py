@@ -1,6 +1,5 @@
 import unittest
-from stack import Stack
-
+from ..ds.stack.stack import Stack
 class StackTest(unittest.TestCase):
     def setUp(self):
         self.stack = Stack()
