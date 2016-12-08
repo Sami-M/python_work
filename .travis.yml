@@ -11,8 +11,5 @@ python:
   - "nightly" # currently points to 3.7-dev
 # command to install dependencies
 install: "pip install -r requirements.txt"
-# environment variables
-before_install:
-  - export PYTHONPATH='.'
 # command to run tests
-script: nosetests --with-coverage
+script: nosetests --with-coverage --cover-package=python_work
