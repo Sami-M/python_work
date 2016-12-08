@@ -10,6 +10,8 @@ python:
   - "3.6-dev" # 3.6 development branch
   - "nightly" # currently points to 3.7-dev
 # command to install dependencies
-#install: "pip install -r requirements.txt"
+install: "pip install -r requirements.txt"
+# environment variables
+export PYTHONPATH='.'
 # command to run tests
 script: nosetests --with-coverage
